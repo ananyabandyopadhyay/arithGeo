@@ -9,7 +9,7 @@ function Index() {
     const onChangeHandler = (e) => {
         setOutputValue("")
         setWarningText("")
-        setDataset(e.target.value)
+        setDataset(e.target.value) 
     }
 
     const arithGeo = (arr) => {
